@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 62.25%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1.2;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* * {
+    border: 1px solid black;
+} */
+
+/* all the crap above is eric meyers' nice way of making this project harder than it needs to be. */
+body {
+    display: inline-block;
+    width: 100%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Chelsea Market', cursive;
+    padding: 3%;
+}
+nav {
+    width: 80%;
+    margin: 0 auto;
+}
+button {
+        width: 18%;
+        max-width: 22%;
+        padding: 1%;
+        border-radius: 15px;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 1rem;
+}
+.b1 {
+      background-color: #FF764E;  }
+.b2 {
+        background-color: #5ED3EB;
+        margin: 6%;
+    
+  }
+.b3 {
+     background-color: #FFCD69;
+  }
+
+.top {
+        width: 100%;     
+}
+.topLeft {
+    width: 25%;
+    display: inline-block;
+    /* margin-top: 2.5%; */
+}
+
+.headerImg {
+     width: 100%; 
+     border-radius: 50%;
+}
+
+.topRight {
+      display: inline-block;
+      width: 60%;
+      margin-top: 2.5%;
+       vertical-align: top; 
+}
+  
+  .middle {
+      background-color: #DDB9A3;
+      color: white;
+      display: block;
+      width: 90%;   
+      margin: 2% auto;
+  }
+  span {
+      font-weight: bold;
+  }
+.fire {
+    width: 32%;
+    margin-bottom: 1rem;
+}
+.icons {
+    width: 35%;
+    margin: 1rem;
+}
+
+.bottom {
+    width: 35%;
+    margin: 2rem auto;
+}
+footer {
+    background-color: #F9E7DC;
+}
+
+.bottom-image {
+    background: url("assets/header_img.jpg");
+    height: 35vh;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
