@@ -51,7 +51,6 @@ table {
     border: 1px solid black;
 } */
 
-/* all the crap above is eric meyers' nice way of making this project harder than it needs to be. */
 body {
     display: inline-block;
     width: 100%;
